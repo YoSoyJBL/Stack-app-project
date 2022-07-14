@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="13dp">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Opciones"
+			android:textSize="19sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="10dp"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="3dp"
+			android:id="@+id/ListOptionLayoutView1"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Cambiar a las versiones estándar"
+			android:layout_below="@id/ListOptionLayoutView1"
+			android:textSize="16sp"
+			android:id="@+id/ListOptionLayoutTextView1"
+			android:paddingBottom="8dp"
+			android:paddingTop="8dp"
+			android:paddingLeft="4dp"
+			android:paddingRight="4dp"/>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="3dp"
+			android:layout_below="@id/ListOptionLayoutTextView1"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Shader packs"
+			android:layout_below="@id/ListOptionLayoutView1"
+			android:textSize="16sp"
+			android:id="@+id/ListOptionLayoutTextView2"
+			android:paddingBottom="8dp"
+			android:paddingTop="8dp"
+			android:paddingLeft="4dp"
+			android:paddingRight="4dp"/>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="3dp"
+			android:layout_below="@id/ListOptionLayoutTextView2"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Texture packs"
+			android:layout_below="@id/ListOptionLayoutView1"
+			android:textSize="16sp"
+			android:id="@+id/ListOptionLayoutTextView3"
+			android:paddingBottom="8dp"
+			android:paddingTop="8dp"
+			android:paddingLeft="4dp"
+			android:paddingRight="4dp"/>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="3dp"
+			android:layout_below="@id/ListOptionLayoutTextView3"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

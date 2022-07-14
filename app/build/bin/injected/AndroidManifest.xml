@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.stackstudios.stack"
+	android:versionCode="2"
+	android:versionName="1.2">
+
+	<uses-sdk
+		android:minSdkVersion="22"
+		android:targetSdkVersion="29"/>
+
+	<uses-permission
+		android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+	<uses-permission
+		android:name="android.permission.INTERNET"/>
+
+	<uses-permission
+		android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+	<application
+		android:requestLegacyExternalStorage="true"
+		android:allowBackup="true"
+		android:icon="@drawable/icon_app"
+		android:roundIcon="@drawable/icon_app_round"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme"
+		android:largeHeap="true"
+		android:name=".Applications"
+		android:resizeableActivity="true">
+
+		<activity
+			android:name=".MainActivity"
+			android:label="@string/app_name">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:name=".DebugActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Versions_Activity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".MyVersions_Activity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait"/>
+
+		<meta-data
+			android:name="android.max_aspect"
+			android:value="4.0"/>
+
+	</application>
+
+</manifest>
+

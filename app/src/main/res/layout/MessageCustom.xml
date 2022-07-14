@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="13dp">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="IMPORTANTE"
+				android:textSize="19sp"
+				android:textStyle="bold"
+				android:layout_marginBottom="7dp"
+				android:id="@+id/MessageCustomTextView1"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/MessageCustomTextView1"
+				android:textSize="16sp"
+				android:paddingRight="4dp"
+				android:paddingLeft="4dp"
+				android:id="@+id/MessageCustomTextView2"
+				android:text="1. Desde este menú podrás descargar e instalar diferentes versiones de Minecraft individual (varias versiones a la ves)"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/MessageCustomTextView2"
+				android:textSize="16sp"
+				android:paddingRight="4dp"
+				android:paddingLeft="4dp"
+				android:layout_marginTop="5dp"
+				android:text="2. Si ya tenías mundos, paquetes de texturas o add-ons, debes hacer una copia de seguridad de tu carpeta de Minecraft por si ocurre algún inconveniente inesperado"
+				android:id="@+id/MessageCustomTextView6"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/MessageCustomTextView6"
+				android:textSize="16sp"
+				android:paddingRight="4dp"
+				android:paddingLeft="4dp"
+				android:layout_marginTop="5dp"
+				android:id="@+id/MessageCustomTextView5"
+				android:text="3. Siempre que habrás Minecraft, hazlo desde este menú o desde 'mis versiones' para evitar problemas/bugs con archivos o configuraciones de Minecraft"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="4. A partir de la version 1.18.0 cada versión tiene su propia carpeta en Android/data/ por lo que todos sus datos están aislados otros datos de otras versiones"
+				android:layout_marginTop="5dp"
+				android:paddingRight="4dp"
+				android:paddingLeft="4dp"
+				android:textSize="16sp"
+				android:layout_below="@id/MessageCustomTextView5"
+				android:id="@+id/MessageCustomTextView3"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ok"
+				android:layout_below="@id/MessageCustomTextView3"
+				android:textSize="16sp"
+				android:paddingBottom="5dp"
+				android:paddingTop="5dp"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:id="@+id/MessageCustomTextView4"
+				android:background="@drawable/button_00"/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<androidx.cardview.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:cardCornerRadius="10dp"
+		app:cardElevation="2dp"
+		android:id="@+id/versionsactivityCardView1"
+		android:layout_marginLeft="7dp"
+		android:layout_marginRight="7dp"
+		android:layout_marginBottom="6dp">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="60dp">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="12dp"
+				android:padding="5dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Minecraft 1.3.0"
+					android:textSize="17sp"
+					android:id="@+id/ListContainerTextView1"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="90 MB"
+					android:textSize="13sp"
+					android:id="@+id/ListContainerTextView2"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="16dp">
+
+				<TextView
+					android:layout_width="95dp"
+					android:layout_height="39dp"
+					android:text="Administrar"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:gravity="center"
+					android:background="@drawable/button_00"
+					android:textSize="16sp"
+					android:id="@+id/ListContainerTextView5"
+					android:visibility="gone"/>
+
+				<TextView
+					android:layout_width="82dp"
+					android:layout_height="39dp"
+					android:text="Abrir"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:gravity="center"
+					android:background="@drawable/button_00"
+					android:textSize="16sp"
+					android:id="@+id/ListContainerTextView4"
+					android:visibility="gone"/>
+
+				<TextView
+					android:layout_width="82dp"
+					android:layout_height="39dp"
+					android:text="Instalar"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:gravity="center"
+					android:background="@drawable/button_00"
+					android:textSize="16sp"
+					android:id="@+id/ListContainerTextView3"
+					android:visibility="gone"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
